@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top bg-dark" aria-label="Third navbar example">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Jakub Rzepinski</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,13 +24,16 @@
       <div class="collapse navbar-collapse" id="navbarsExample03">
         <ul class="navbar-nav me-auto mb-2 mb-sm-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#work">My Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#accordionExample">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
           </li>
         </ul>
         
@@ -54,8 +57,8 @@
       </div>
     </div>
 
-<div class="container-fluid bg-3  card">    
-  <h3 class="text-center m-2">My Work</h3><br>
+<div id="work" class="container-fluid bg-3  card">    
+  <h3 class="text-center m-3 p-2 border-bottom">My Work</h3><br>
   <div class="row">
     <div class="card col-sm-3 p-1" >
       <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
@@ -131,7 +134,7 @@
 </div><br><br>
 
 <div class="accordion" id="accordionExample">
-  <h3 class="text-center m-2">Skills</h3><br>
+  <h3 class="text-center m-2 p-2 border-bottom">Skills</h3><br>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -230,9 +233,12 @@
   </div>
 </div>
 
-<div class="container px-0 py-5 col-sm-12" >
-  <h2 class="pb-2 text-center  border-bottom">About me</h2>
-  <div class="container row col-sm-12 "><p> I am Front-end developer with a passion for creating intuitive and engaging user experiences. 
+<div id="about" class="container row px-0 py-5 col-sm-12" >
+  <div class="container col-sm-3">
+  <h2 class="p-5"> About me</h2> 
+  </div>
+  <div class="container col-sm-9 ">
+  <p> I am Front-end developer with a passion for creating intuitive and engaging user experiences. 
   Proficient in HTML, CSS, and JavaScript, with a focus on responsive design and cross-browser compatibility.
    Currently seeking entry-level or internship opportunities to further develop my skills and gain practical experience in the industry. 
    Ready to bring my passion, creativity, and attention to detail to any project I work on.
@@ -244,13 +250,14 @@
   </div>
   </div>
 
-  <footer class="py-3 my-4 col-sm-12">
+  <footer id="contact" class="py-3 my-4 col-sm-12">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      <li class="nav-item"><a href="https://wa.me/4477777777" class="nav-link px-2">WhatsApp</a></li>
+      <li class="nav-item"><a href="mailto: rzepa8@gmail.com" class="nav-link px-2">E-mail</a></li>
+      <li class="nav-item"><a href="https://github.com/rzepa000" class="nav-link px-2">GitHub</a></li>
+      <li class="nav-item"><a href="https://twitter.com/rzepa8" class="nav-link px-2">Twitter</a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/in/jakub-rz3pinski/" class="nav-link px-2">LinkedIn</a></li>
+      <li class="nav-item"><a href="https://www.instagram.com/rzepka000/" class="nav-link px-2">Instagram</a></li>
     </ul>
     <p class="text-center text-muted">&copy; 2023 Jakub Rzepinski</p>
   </footer>
