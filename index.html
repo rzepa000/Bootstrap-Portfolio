@@ -4,87 +4,89 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="/css/style.css">
   
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jakub Rzepinski</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand"  href="#">Jakub Rzepinski</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">About me</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="https://www.linkedin.com/in/jakub-rz3pinski/" target="_blank">Resume</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-<div class="jumbotron col-sm-12">
-  <div class="container text-left col-sm-6">
-    <img src="images/avatar.jpg" class="img-circle float-end img-thumbnail" style="width: 150px;">
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- <img src="images/avatar.jpg" class="rounded-circle img-thumbnail float-start" style="width: 150px;"> -->
     
     
     
-  </div>
-  <div class="container text-right col-sm-6">
-    
-    <h1>Jakub Rzepinski</h1>  
-    <p>Front-End Developer</p>
-    
-    
-  </div>
-</div>
-  
+<div class="row jumbotron jumbotron-fluid col-sm-12 m-0 py-3">
+      <div class="container col-sm-6 float-start">
+        <img src="images/avatar.jpg" class="rounded-circle img-thumbnail" style="width: 150px;">
+        
+      </div>
+      <div class="container col-sm-6 float-end">
+        <h1 class="display-4">Jakub Rzepinski</h1>
+        <p class="lead">Front-End Developer</p>
+      </div>
+    </div>
+
 <div class="container-fluid bg-3 text-center card">    
   <h3>My Work</h3><br>
   <div class="row">
-    <div class="card col-sm-3" >
-      <img src="/images/02-portfolio-1.jpg" class="card-img-top img-rounded" alt="projectpicture">
+    <div class="card col-sm-3 p-1" >
+      <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn bg-dark btn-primary">Go somewhere</a>
+        <h5 class="card-title">CSS Customize Project</h5>
+        <p class="card-text">Created to polish my skills in debugging and optimizing websites for clients. Learned basics of HTML positioning and CSS styling.</p>
+        <a href="https://github.com/rzepa000/horiseon-rework" class="btn btn-dark">Check on GitHub</a>
       </div>
     </div>
-    <div class="card col-sm-3" >
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card col-sm-3 p-1" >
+      <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">CSS Customize Project</h5>
+        <p class="card-text">Created to polish my skills in debugging and optimizing websites for clients. Learned basics of HTML positioning and CSS styling.</p>
+        <a href="https://github.com/rzepa000/horiseon-rework" class="btn btn-dark">Check on GitHub</a>
       </div>
     </div>
-    <div class="card col-sm-3" >
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card col-sm-3 p-1" >
+      <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">CSS Customize Project</h5>
+        <p class="card-text">Created to polish my skills in debugging and optimizing websites for clients. Learned basics of HTML positioning and CSS styling.</p>
+        <a href="https://github.com/rzepa000/horiseon-rework" class="btn btn-dark">Check on GitHub</a>
       </div>
     </div>
-    <div class="card col-sm-3" >
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card col-sm-3 p-1" >
+      <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">CSS Customize Project</h5>
+        <p class="card-text">Created to polish my skills in debugging and optimizing websites for clients. Learned basics of HTML positioning and CSS styling.</p>
+        <a href="https://github.com/rzepa000/horiseon-rework" class="btn btn-dark">Check on GitHub</a>
       </div>
     </div>
   </div>
@@ -92,36 +94,36 @@
 
 <div class="container-fluid bg-3 text-center card">    
   <div class="row">
-    <div class="card col-sm-3" >
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card col-sm-3 p-1" >
+      <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-secondary">Go somewhere</a>
+        <h5 class="card-title">CSS Customize Project</h5>
+        <p class="card-text">Created to polish my skills in debugging and optimizing websites for clients. Learned basics of HTML positioning and CSS styling.</p>
+        <a href="https://github.com/rzepa000/horiseon-rework" class="btn btn-dark">Check on GitHub</a>
       </div>
     </div>
-    <div class="card col-sm-3" >
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card col-sm-3 p-1" >
+      <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-dark">Go somewhere</a>
+        <h5 class="card-title">CSS Customize Project</h5>
+        <p class="card-text">Created to polish my skills in debugging and optimizing websites for clients. Learned basics of HTML positioning and CSS styling.</p>
+        <a href="https://github.com/rzepa000/horiseon-rework" class="btn btn-dark">Check on GitHub</a>
       </div>
     </div>
-    <div class="card col-sm-3" >
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card col-sm-3 p-1" >
+      <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary bg-dark">Go somewhere</a>
+        <h5 class="card-title">CSS Customize Project</h5>
+        <p class="card-text">Created to polish my skills in debugging and optimizing websites for clients. Learned basics of HTML positioning and CSS styling.</p>
+        <a href="https://github.com/rzepa000/horiseon-rework" class="btn btn-dark">Check on GitHub</a>
       </div>
     </div>
-    <div class="card col-sm-3" >
-      <img src="..." class="card-img-top" alt="...">
+    <div class="card col-sm-3 p-1" >
+      <img src="https://github.com/rzepa000/horiseon-rework/raw/eb8746c24feada604c61741006c83ad17f49cea8/assets/images/screenshot.png" class="card-img-top" alt="projectpicture">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">CSS Customize Project</h5>
+        <p class="card-text">Created to polish my skills in debugging and optimizing websites for clients. Learned basics of HTML positioning and CSS styling.</p>
+        <a href="https://github.com/rzepa000/horiseon-rework" class="btn btn-dark">Check on GitHub</a>
       </div>
     </div>
   </div>

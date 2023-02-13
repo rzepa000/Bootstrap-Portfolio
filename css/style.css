@@ -1,7 +1,8 @@
 .jumbotron{
   background-image: url("/images/02-hero-bg.jpg");
-  background-size:cover;
+  background-size: cover;
   text-shadow: 2px 1px 1px white;
+  height: fit-content;
 }
 
 .navbar {
