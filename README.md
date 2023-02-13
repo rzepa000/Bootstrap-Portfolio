@@ -1,9 +1,8 @@
-# My portfolio
+# Bootstrap portfolio
 
 ## Description
 
-Created for future to show my progress as front end developer and prepare for job hunting . Learned building my own website from scratch with css grids.
-
+Created  to show my progress as front end developer using bootstra[] . Learned building my own website with Bootstrap.
 ## Installation
 
 N/A
@@ -14,9 +13,9 @@ Scroll through webpage or links to quickly navigate. Check screenshot for previe
 
 
 
-[Click me to go to check this app!](http://rzepa000.github.io/rzepa-portfolio)
+[Click me to go to check this app!](http://rzepa000.github.io/Bootstrap-Portfolio)
     
-![website screenshot](https://github.com/rzepa000/rzepa-portfolio/blob/main/images/screenshot.jpg)
+![website screenshot](https://github.com/rzepa000/Bootstrap-Portfolio/blob/main/images/screenshot.jpg)
 
 
 ## Credits
